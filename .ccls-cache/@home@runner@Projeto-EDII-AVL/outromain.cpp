@@ -1,7 +1,4 @@
-#include "AVL.h"
-#include "NodeAVL.h"
 #include "ProgramaNetFlix.h"
-#include "Utils.h"
 #include <fstream>
 #include <iostream>
 #include <sstream>
@@ -60,14 +57,16 @@ std::vector<ProgramaNetFlix> readCsv(const std::string &filename) {
 
   return programs;
 }
-
+/*
 int main() {
 
   std::vector<ProgramaNetFlix> programs = readCsv("titles.csv");
-  std::cout << programs.size();
+  std::cout << programs.size() << std::endl;
+  
 
 
 
 
   return 0;
 }
+*/
